@@ -84,8 +84,8 @@ def download_btc_data(start_date, end_date):
     return all_data
 
 # Download BTC/USD minute data from 2025-01-01 to 2025-03-01
-start_date = "2025-01-01"
-end_date = "2025-03-01"
+start_date = "2018-01-01"
+end_date = "2025-05-07"
 aggs = download_btc_data(start_date, end_date)
 
 # Convert to DataFrame and save to CSV
